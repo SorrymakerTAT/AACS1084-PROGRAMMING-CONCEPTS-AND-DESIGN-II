@@ -16,7 +16,7 @@ void main() {
 		exit(-1);
 	}
 
-	while (fsacnf(fp, "%d", &num) != EOF) {
+	while (fscanf(fp, "%d", &num) != EOF) {
 		sum += num;
 		count++;
 	}
